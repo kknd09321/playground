@@ -11,8 +11,8 @@
        https://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
 
-    <!-- 타일즈 설정 -->
-    <!--<bean id="tilesConfigurer"
+<!--    &lt;!&ndash; 타일즈 설정 &ndash;&gt;
+    <bean id="tilesConfigurer"
           class="org.springframework.web.servlet.view.tiles3.TilesConfigurer">
         <property name="definitions">
             <list>
@@ -26,13 +26,15 @@
 
 
 
-    <!-- 타일즈 뷰리졸버 설정 -->
-<!--    <bean id="tilesViewResolver"
+<!--
+    &lt;!&ndash; 타일즈 뷰리졸버 설정 &ndash;&gt;
+    <bean id="tilesViewResolver"
           class="org.springframework.web.servlet.view.UrlBasedViewResolver">
         <property name="viewClass"
                   value="org.springframework.web.servlet.view.tiles3.TilesView"/>
         <property name="order" value="1" />
-    </bean>-->
+    </bean>
+-->
 
     <!-- 뷰 리졸버 설정 -->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
